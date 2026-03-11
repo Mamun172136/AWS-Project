@@ -4,6 +4,8 @@ on:
   push:
     branches:
     - main
+    paths:
+      - 'Portfolio-Deployment-Pipeline/**'
 
 jobs:
   build-and-deploy:
